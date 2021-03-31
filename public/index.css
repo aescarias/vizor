@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: "Montserrat", "Open Sans", Verdana, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: whitesmoke;
+    font-size: 150%;
+}
+
+h1, h2, h3 {
+    font-family: "Lexend Deca", "Montserrat", "Open Sans", Verdana, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+h1 { font-size: 2.60rem; }
+h2 { font-size: 2.45rem; }
+h3 { font-size: 2rem; }
+
+div[disabled] {
+  pointer-events: none;
+  opacity: 0.6;
+  background: #77777777;  
+  background-color: #77777777;
+  filter: alpha(opacity=50);
+  zoom: 1;  
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";  
+  -moz-opacity: 0.5; 
+  -khtml-opacity: 0.5;  
+}
+
+.container {
+    height: 100%;
+}
+#app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.no-script {
+    background-color: white;
+    padding: 15px;
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    width: 80vw;
+    box-sizing: border-box;
+}
+
+.ns-head {
+    font-family: "Lexend Deca", "Montserrat", "Open Sans", Verdana, Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid gray;
+    margin: .5em;
+    font-size: 2.5em;
+}
+
+.ns-lead {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
